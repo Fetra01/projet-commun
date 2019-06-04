@@ -1,8 +1,9 @@
 body{
 	text-align: center;
 	background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/developpement/images/background.jpg);
-
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top 50%;
 
 }
 

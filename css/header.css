@@ -1,0 +1,30 @@
+
+header nav {
+ text-align: center;
+ margin-top: 60px;
+
+}
+
+header nav ul {
+list-style-type: none;
+height: 10px;
+
+}
+
+header nav ul li {
+  display: inline;
+
+}
+
+header nav ul li a {
+  color:white;
+  padding: 8px 16px;
+  text-decoration: none; 
+  font-family: 'Open Sans';
+}
+
+header nav ul li a:hover {
+background-color: #555;
+  color: white;
+  font-weight: bold;   
+}

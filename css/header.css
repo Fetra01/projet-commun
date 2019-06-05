@@ -1,5 +1,4 @@
 
-
 header nav {
  text-align: center;
  margin-top: 60px;
@@ -25,7 +24,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-background-color: #555;
   color: white;
   font-weight: bold;   
+  text-decoration: none;
 }

@@ -1,12 +1,16 @@
 body{
 	text-align: center;
-	background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/developpement/images/background.jpg);
+	background-color: #555555;
+	background-image: url("../images/images redimensiones/background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top 50%;
+	-ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	background-position: 50% 30%;
 
 }
-
 header nav {
  text-align: center;
  margin-top: 60px;
@@ -32,18 +36,24 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-background-color: #555;
+
   color: white;
   font-weight: bold;   
 }
 
-
+#contenair{
+	margin-top: 15%;
+}
 
 h1{
-	font-family: 'Open sans';
-	font-size: 100px;
+	font-family: 'Open sans', sans-serif;
+	font-size: 6em;
+	color: white;
+	font-weight: bold;
 }
 p{
-	font-family: 'Open sans';
-	font-size: 12px;
+	font-family: 'Open sans', sans-serif;
+	font-size: 1.5em;
+	color: white;
+	font-weight: bold;
 }

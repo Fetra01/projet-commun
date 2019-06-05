@@ -3,6 +3,38 @@
     
 }
 
+
+header nav {
+    text-align: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   }
+   
+   header nav ul {
+   list-style-type: none;
+   height: 10px;
+   
+   }
+   
+   header nav ul li {
+     display: inline;
+   
+   }
+   
+   header nav ul li a {
+     color:white;
+     padding: 8px 16px;
+     text-decoration: none; 
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   header nav ul li a:hover {
+     text-decoration: none;
+   
+     color: white;
+     font-weight: bold;   
+   }
+
 #include{
     padding-top: 50px;
     padding-bottom: 80px;
@@ -12,41 +44,56 @@
 }
 
 .head{
-    background-color: #3b3b3b;
+    
 }
 
 .test{
     margin-left: 90px;
     text-align: center;
     color: white;
+    
 }
 
-h1{
+#h1_obs{
     margin-left: 90px;
     margin-right: 90px;
     padding-bottom: 80px;
+    font-size: 100px;
 }
 
 h2{
     margin-left: 90px;
     margin-right: 90px;
     padding-bottom: 30px;
+    font-size: 35px;
+}
+
+#h3_release{
+  color: white;
+  font-size: 45px;
+}
+
+#release{
+  color: #bcbcbc;
+  
 }
 
 .hr1{
     margin-left: 90px;
     margin-right: 90px;
     border-color: white;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 
 .butn{
     margin: 5px 0px;
+    height: 40px;
     font-size: 20px;
-    background-color: #7c7c7c;
+    background-color: rgba(68, 68, 68, 0.719);
     text-decoration: none;
     width: 340px;
+    border: none;
 }
   
 .butn:hover {
@@ -74,26 +121,52 @@ h2{
   }
   
   .pochette-column {
-  
+   
    margin-left: 100px;
    margin-right: 0;
    width: 0;
-   margin-bottom: 180px;
   }
   
   .playlist-column {
-    
     margin-left:-300px;
+    margin-right: 90px;
+  }
+
+  .playlist-column a {
+    text-decoration: none;
+    color:white;
+    
+  }
+
+  .playlist-column a:hover {
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
   }
   
+  .playlist-column ol{
+  color: grey;
+  }
+
   .butn-column {
-    
     height: 100px;
     width: 0;
     margin-left: 100px;
-    margin-top: -150px;  
+    margin-top: -180px;  
   }
 
 .some-page-wrapper{
     display: inline;
 }
+
+.section_top{
+  background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/master/images/background.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position-y: -500px;
+  
+}
+.head{
+  background-color: rgba(44, 44, 44, 0.7);
+}
+

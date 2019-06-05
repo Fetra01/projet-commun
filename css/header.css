@@ -1,5 +1,4 @@
 
-
 header nav {
  text-align: center;
  margin-top: 60px;
@@ -25,7 +24,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
+<<<<<<< HEAD
 
+=======
+>>>>>>> a35a1cf40e1731c76204d662688a76688b28af04
   color: white;
   font-weight: bold;   
+  text-decoration: none;
 }

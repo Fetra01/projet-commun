@@ -8,6 +8,11 @@ body{
 	
 	background-position: 40% 40%;
 }
+#bg{
+	background-color: rgba(0, 0, 0, 0.6);
+	background-size: cover;
+	padding-top: -100px;
+}
 
 
 header nav {
@@ -63,16 +68,135 @@ header nav ul li a:hover {
 	margin-bottom: 3em;
 }
 #v1{
-	border-top: solid;
-	border-bottom: solid;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
 	padding: 20px;
+	border-top-color: #636363;
+	border-bottom-color: #636363;
 }
 #v3{
-	border-top: solid;
-	border-bottom: solid;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
 	padding: 20px;
+	border-top-color: #636363;
+	border-bottom-color: #636363;
 }
 #v2{
-	border: solid;
+	border: solid 1px;
 	padding: 20px;
+	border-color: #636363;
+}
+.youtube h5{
+	margin-top: 20px;
+}
+#tb p{
+	text-align: center;
+}
+
+/*----------------------------------------------------------------*/
+
+
+#container-f{
+display : flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 190px;
+margin-left: 95px;
+margin-right: 95px;
+}
+
+h-f1{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+
+h-f2 {
+color: #A9A7A7;
+font-size: 17px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+}
+
+hr {
+color: #A9A7A7;
+margin-left: 95px;
+margin-right: 95px;
+}
+
+.ABOUT {
+	color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.OBSIDIAN {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+font-weight: normal; 
+width: 330px;
+height : 210px;
+padding-right: 45px;
+}
+
+
+.VIVIENNE{
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+ margin-bottom: 20px;
+}
+
+.LINE{
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+width: 330px;
+height : 210px;
+padding-right: 15px;
+}
+
+.RECENT {
+color: white;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+ font-weight: bolder; 
+  margin-bottom: 20px;
+}
+
+.POSTS {
+color: #A9A7A7;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+width: 330px;
+height : 210px;
+}
+
+#reseaux{
+ text-align: center;
+ font-size: 120%;
+ color: white;
+ margin-top: 40px;
+ margin-bottom: 80px;
+ word-spacing: 20px;
+}
+
+.fab:hover {
+  color: white;
+  font-size: 140%;  
+}
+
+#copyright{
+color: white;
+font-family: 'Open Sans', sans-serif;
+font-size: 14px;
+margin-top: 50px;
+word-spacing: 5px;
 }

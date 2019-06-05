@@ -4,61 +4,81 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="music.css">
+    <link rel="stylesheet" href="../css/music.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <title>Musique</title>
 </head>
-<body>
-    <header>
-        Laetitia
-    </header>
-
+<body>   
     <div class="head">
-        <h1>OBSIDIAN</h1>
-        <h2>RECORDS</h2>
+        <div id="include" w3-include-html="header.html"></div>
+        <h1 class="test">OBSIDIAN</h1>
+        <h2 class="test">RECORDS</h2>
+        <hr class="hr1">
+</div>
+<div class='some-page-wrapper'>
+        <div class='row'>
+          <div class='column'>
+            <div class='pochette-column'>
+        <img src="https://raw.githubusercontent.com/iNoSec2/projet-commun/developpement/images/album-03.jpg" alt="pochette cd" style="width: 340px;">
     </div>
-
-    <hr>
-    
-    <div class="album">
-        <img src="https://raw.githubusercontent.com/errelle/projet-commun/master/images/album-03-300x300.jpg" alt="pochette cd">
-    <div class="bouton">  
-        <button><a href="https://www.apple.com/fr/itunes/download/thank-you/">ITUNES</a></button>
-        <button><a href="https://www.spotify.com/fr/">SPOTIFY</a></button>
-        <button><a href="https://www.amazon.fr/">AMAZON</a></button>
-    </div> 
-    </div>
-
-    <div>
+</div>
+<div class='column'>
+  <div class='playlist-column'>
         <h3>Vivienne's Omitted Line</h3>
         <p id="release">Release : 2013</p>
-        <hr>
-        <nav>
-            <ol>
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-                <li>lorem ipsum</li>
-                <hr class="morceau">
-            </ol>
-        </nav>
+        <table class="table" id="table">
+                <tbody>
+                <tr>
+                    <td>1. La petite maison</td>
+                </tr>
+                <tr>
+                    <td>2. Dans la prairie</td>
+                </tr>
+                <tr>
+                   <td>3. La cabane</td>
+                  </tr>
+                <tr>
+                    <td>4. Au fond du jardin</td>
+                </tr>
+                <tr>
+                    <td>5. J'y vais</td>
+                </tr>
+                <tr>
+                    <td>6. Quand je me sens pas bien</td>
+                </tr>
+                    <tr>
+                    <td>7. Attention</td>
+                </tr>
+                <tr>
+                    <td>8. N'y vas pas de suite</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
+    
+  </div>
+  <div class='row 2'>
+    <div class='column'>
+      <div class='butn-column'>
+        <button class="butn"><a href="https://www.apple.com/fr/itunes/download/thank-you/">ITUNES</a></button>
+        <button class="butn"><a href="https://www.spotify.com/fr/">SPOTIFY</a></button>
+        <button class="butn"><a href="https://www.amazon.fr/">AMAZON</a></button>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+    
+
     <footer>
-        Laetitia
+
     </footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<!--Fonction permettant include une page html sans passer par php-->
+<script src="../js/include_header.js"></script>
 </body>
 </html>

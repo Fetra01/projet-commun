@@ -1,0 +1,106 @@
+*{
+    font-family: 'Open Sans', 'Courier New', Courier, monospace; 
+    
+}
+
+
+header nav {
+    text-align: center;
+   padding-top: 50px;
+   
+   }
+   
+   header nav ul {
+   list-style-type: none;
+   height: 10px;
+   
+   }
+   
+   header nav ul li {
+     display: inline;
+   
+   }
+   
+   header nav ul li a {
+     color:white;
+     padding: 8px 16px;
+     text-decoration: none; 
+    font-family: 'Open Sans', sans-serif;
+   }
+   
+   header nav ul li a:hover {
+     text-decoration: none;
+   
+     color: white;
+     font-weight: bold;   
+   }
+
+   .sub_head{
+    margin-left: 90px;
+    text-align: center;
+    color: white;
+    
+}
+
+#h1_obs{
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 100px;
+    margin-bottom: 90px;
+}
+
+h2{
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.hr1{
+    margin-left: 90px;
+    margin-right: 90px;
+    border-color: white;
+    padding-bottom: 60px;
+}
+
+.section_top{
+    background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/master/images/background.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    background-position-y: -500px;
+    
+  }
+  .head{
+    background-color: rgba(44, 44, 44, 0.7);
+  }
+
+.some-page-wrapper img {
+ width: 400px;
+ height: auto;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+p{
+    color: white;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+
+/*
+footer{
+    background-color: black;
+    padding-top:100px;
+    margin-top: -180px;
+    padding-bottom: 50px;
+}*/

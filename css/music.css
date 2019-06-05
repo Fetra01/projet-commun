@@ -7,7 +7,7 @@
 header nav {
     text-align: center;
    padding-top: 50px;
-   padding-bottom: 50px;
+   padding-bottom: 52px;
    }
    
    header nav ul {
@@ -35,19 +35,7 @@ header nav {
      font-weight: bold;   
    }
 
-#include{
-    padding-top: 50px;
-    padding-bottom: 80px;
-    margin-bottom: 10px;
-    margin-left: 90px;
-    margin-right: 90px;
-}
-
-.head{
-    
-}
-
-.test{
+.sub_head{
     margin-left: 90px;
     text-align: center;
     color: white;
@@ -162,7 +150,7 @@ h2{
 .section_top{
   background-image: url(https://raw.githubusercontent.com/errelle/projet-commun/master/images/background.jpg);
   background-repeat: no-repeat; 
-  background-size: cover;
+  background-size: 100%;
   background-position-y: -500px;
   
 }

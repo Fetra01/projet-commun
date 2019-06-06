@@ -1,4 +1,3 @@
-
 body{
 	background-image:url(https://raw.githubusercontent.com/Fetra01/projet-commun/developpement/images/background.jpg);
 	background-repeat: no-repeat;
@@ -32,7 +31,7 @@ header nav {
      color:white;
      padding: 8px 16px;
      text-decoration: none; 
-   ²font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
    }
    
    header nav ul li a:hover {
@@ -63,70 +62,8 @@ h2{
     font-size: 35px;
 }
 
+
 /*--------------------------end header--------------------*/
-
-#Titrehome{
-	text-align: center;
-	margin-top: 10%;
-	margin-bottom: 10%;
-}
-
-#Contenuhome{
-	margin-left: 20%;
-	margin-right: 20%;
-	width: 1100px;
-}
-#Titrevideohome{
-	display: flex;
-	justify-content: space-between;	
-	margin-bottom: 2em;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-}
-
-.youtube{
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 3em;
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-}
-#v1{
-	border-top: solid 1px;
-	border-bottom: solid 1px;
-	padding: 20px;
-	border-top-color: #636363;
-	border-bottom-color: #636363;
-}
-#v3{
-	border-top: solid 1px;
-	border-bottom: solid 1px;
-	padding: 20px;
-	border-top-color: #636363;
-	border-bottom-color: #636363;
-}
-#v2{
-	border: solid 1px;
-	padding: 20px;
-	border-color: #636363;
-}
-.youtube h5{
-	margin-top: 20px;
-}
-#tb p{
-	text-align: center;
-}
-#tb .table{
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-}
-#tb{
-	color: white;
-	font-family: 'Open Sans', sans-serif;
-}
-/*----------------------------------------------------------------*/
-
-
 footer{
   background-color: black;
   padding-top: 200px;
@@ -147,7 +84,6 @@ footer{
   margin-top: 50px;
   justify-content: center;
 }
-
 
 
 
@@ -243,5 +179,80 @@ word-spacing: 5px;
 footer hr{
   border-color: grey;
   margin: 0 90px;
-  width: 1100px;
+}
+/*---------------------------------------------END FOOTER--------------------------*/
+#titrephoto{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+hr{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 1100px;
+}
+
+#contenuphoto{
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 1100px;
+}
+/*-------------------------------------------photo-----------------------------------*/
+
+#ph1 img{
+	width: 730px;
+	height: 485px;
+}
+#ph2 img{
+	width: 360px;
+	height: 240px;
+}
+#ph3 img{
+	width: 360px;
+	height: 240px;
+}
+#ph4 img{
+	width: 445px;
+	height: 296px;
+}
+#ph5 img{
+	width: 445px;
+	height: 296px;
+}
+#ph6 img{
+	width: 198px;
+	height: 296px;
+}
+#ph7 img{
+	width: 320px;
+	height: 215px;
+}
+#ph8 img{
+	width: 320px;
+	height: 215px;
+}
+#ph9 img{
+	width:142px;
+	height: 215px;
+}
+#ph10 img{
+	width: 300px;
+	height: 215px;
+}
+
+#photo1{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0.5em;
+}
+#photo23{
+	display: flex;
+	flex-direction:column
+}
+.photo2{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 0.5em;
+
 }

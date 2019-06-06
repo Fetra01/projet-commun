@@ -69,9 +69,10 @@ h2{
 .hr1{
     margin-left: 90px;
     margin-right: 90px;
-    border-color: white;
+    border-color: grey;
     padding-bottom: 60px;
 }
+
 
 
 .butn{
@@ -158,16 +159,28 @@ h2{
   background-color: rgba(44, 44, 44, 0.7);
 }
 
+footer{
+  background-color: black;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin-top: -140px;
+}
+
+.foot{
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 
 #container-f{
-display : flex;
-flex-direction: row;
-justify-content: center;
-margin-top: 40px;
-margin-bottom: 190px;
-margin-left: 95px;
-margin-right: 95px;
+  display : flex;
+  flex-direction: row;
+  margin-bottom: 190px;
+  margin-top: 50px;
 }
+
+
 
 h-f1{
 color: white;
@@ -200,7 +213,6 @@ font-size: 17px;
 font-weight: normal; 
 width: 330px;
 height : 210px;
-padding-right: 45px;
 }
 
 
@@ -257,6 +269,9 @@ font-family: 'Open Sans', sans-serif;
 font-size: 14px;
 margin-top: 50px;
 word-spacing: 5px;
-background-color: black;
 }
 
+footer hr{
+  border-color: grey;
+  margin: 0 90px;
+}
